@@ -1,0 +1,31 @@
+@import 'normalize.css';
+@import 'variables.scss';
+@import 'fonts.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $--color-main;
+
+  color: $--color-secondary;
+  font-family: $font--normal;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+// <------------------------------->
+
+.calories-calculator{
+    display: flex;
+}
+
+.calculator{
+    background-color: #fff;
+    
+}
